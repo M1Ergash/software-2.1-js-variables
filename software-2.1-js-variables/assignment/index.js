@@ -4,6 +4,12 @@
 let q1test = 15;
 
 //Add code here
+if (q1test % 3 === 0 && q1test % 5 === 0)
+  console.log(`the entered ${q1test} is devisible by 3 and 5`);
+else if (q1test % 3 === 0)
+  console.log(`the entered ${q1test} is devisible by 3`);
+else if (q1test % 5 === 0)
+  console.log(`the entered ${q1test} is devisible by 5`);
 
 //Q2. Using an if-else statement, determin is a year is a leap year or not.
 //Research what are the conditions to be considered a leap year.
